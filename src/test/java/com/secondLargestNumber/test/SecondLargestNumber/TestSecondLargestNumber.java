@@ -3,7 +3,7 @@ package com.secondLargestNumber.test.SecondLargestNumber;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestScondLargestNumber {
+public class TestSecondLargestNumber {
 
 	SecondLargestNumber sn = new SecondLargestNumber();
 
@@ -51,7 +51,7 @@ public class TestScondLargestNumber {
 	 */
 	@Test
 	public void allElementsAreSame() {
-		int[] arry = { 4, 4, 4, 1 };
+		int[] arry = { 4, 4, 4, 4 };
 		Assert.assertNull(sn.unsortedArray(arry), "All elements are same");
 	}
 
