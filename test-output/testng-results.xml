@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="127" started-at="2016-06-17T01:17:16Z" finished-at="2016-06-17T01:17:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="127" started-at="2016-06-17T01:17:16Z" finished-at="2016-06-17T01:17:16Z">
+      <class name="com.secondLargestNumber.test.SecondLargestNumber.TestScondLargestNumber">
+        <test-method status="PASS" signature="testArrayNotNull()[pri:0, instance:com.secondLargestNumber.test.SecondLargestNumber.TestScondLargestNumber@7225790e]" name="testArrayNotNull" duration-ms="41" started-at="2016-06-16T18:17:16Z" finished-at="2016-06-16T18:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrayNotNull -->
+        <test-method status="PASS" signature="testArrayOnlyOneElement()[pri:0, instance:com.secondLargestNumber.test.SecondLargestNumber.TestScondLargestNumber@7225790e]" name="testArrayOnlyOneElement" duration-ms="13" started-at="2016-06-16T18:17:16Z" finished-at="2016-06-16T18:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrayOnlyOneElement -->
+        <test-method status="PASS" signature="testScondLargestNumber()[pri:0, instance:com.secondLargestNumber.test.SecondLargestNumber.TestScondLargestNumber@7225790e]" name="testScondLargestNumber" duration-ms="7" started-at="2016-06-16T18:17:16Z" finished-at="2016-06-16T18:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScondLargestNumber -->
+      </class> <!-- com.secondLargestNumber.test.SecondLargestNumber.TestScondLargestNumber -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
