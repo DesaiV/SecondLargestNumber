@@ -11,7 +11,7 @@ public class TestScondLargestNumber {
 	 * Test Case 1: Check array is not null
 	 */
 	@Test
-	public void testArrayNotNull() {
+	public void testArrayIsNull() {
 		int[] arry = null;
 		Assert.assertNull(sn.unsortedArray(arry), "Array is empty");
 
