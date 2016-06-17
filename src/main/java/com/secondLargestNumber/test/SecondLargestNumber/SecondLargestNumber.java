@@ -1,67 +1,48 @@
 package com.secondLargestNumber.test.SecondLargestNumber;
 
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-
 public class SecondLargestNumber {
-	
-	//public static void main(String [] args){
-	
-		//int[] intarray = {1,5,3,6,2,9,9,9,0,8};
-		//int[] intarray = {2,5,6,6,0};
-		
-	public int SecondLargestNumber(int [] intarray ){
-			
-			List<Integer> list = new ArrayList<>();
-			for(int i:intarray) {
-				// if((list.contains(i))){
-		        	list.add(i);
-		        	// }
-			}
-			System.out.println();
-			Collections.sort(list);
-			//System.out.println(list);
-			//System.out.println(list.size()-1);
-			//return (list.get(list.size()-2));
-		
-			int s=list.get(list.size()-1);
-			int m=0;
-			for(int i=list.size()-1;i>=0;i--){
-				if(s != list.get(i)){
-					//System.out.print(list.get(i));
-					m=list.get(i);
-					break;
-					}
-				}
-			return m;
-		}
-		
-		public int arrayLength(int [] intarray){
-			int arrayLength = intarray.length;
-			return arrayLength;
-		}
-		
-		public int SecondLargestNumber2(int [] intarray ){
-			List<Integer> list = new ArrayList<>();
-			for(int i:intarray) {
-				 if(!(list.contains(i))){
-		        	list.add(i);
-		        	}
-			}
-			Collections.sort(list);
-			
-			return (list.get(list.size()-2)); 
-		}
-		
-		/*public int unsortedArray(int[] intarray){
-			
-			
-			return 
-		}
-		*/
 
+	public Integer unsortedArray(int[] intarray) {
+
+		Integer templfirstlargest, tempsecondlargest;
+
+		if (intarray == null || intarray.length == 1) {
+			return null;
+		}
+
+		if (intarray.length > 2) {
+			if (intarray[0] > intarray[1]) {
+				templfirstlargest = intarray[0];
+				tempsecondlargest = intarray[1];
+			} else {
+				templfirstlargest = intarray[1];
+				tempsecondlargest = intarray[0];
+			}
+
+			for (int i = 2; i < intarray.length; i++) {
+				if (intarray[i] > templfirstlargest) {
+					tempsecondlargest = templfirstlargest;
+					templfirstlargest = intarray[i];
+				} else if (intarray[i] < templfirstlargest && intarray[i] > tempsecondlargest) {
+					tempsecondlargest = intarray[i];
+				} else if (tempsecondlargest == templfirstlargest && intarray[i] == tempsecondlargest) {
+					return (null);
+				}
+
+			}
+			return (tempsecondlargest);
+		} else if (intarray.length == 2 && intarray[0] > intarray[1]) {
+			templfirstlargest = intarray[0];
+			tempsecondlargest = intarray[1];
+		} else {
+			templfirstlargest = intarray[1];
+			tempsecondlargest = intarray[0];
+		}
+		return (tempsecondlargest);
+	}
 
 }
