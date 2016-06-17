@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.secondLargestNumber.test.SecondLargestNumber.TestSecondLargestNumber" duration-ms="139" started-at="2016-06-17T07:15:56Z" finished-at="2016-06-17T07:15:56Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="139" started-at="2016-06-17T07:15:56Z" finished-at="2016-06-17T07:15:56Z">
+      <class name="com.secondLargestNumber.test.SecondLargestNumber.TestSecondLargestNumber">
+        <test-method status="PASS" signature="allElementsAreSame()[pri:0, instance:com.secondLargestNumber.test.SecondLargestNumber.TestSecondLargestNumber@75bd9247]" name="allElementsAreSame" duration-ms="24" started-at="2016-06-17T00:15:56Z" finished-at="2016-06-17T00:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allElementsAreSame -->
+        <test-method status="PASS" signature="testArrayIsNull()[pri:0, instance:com.secondLargestNumber.test.SecondLargestNumber.TestSecondLargestNumber@75bd9247]" name="testArrayIsNull" duration-ms="1" started-at="2016-06-17T00:15:56Z" finished-at="2016-06-17T00:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrayIsNull -->
+        <test-method status="PASS" signature="testArrayOnlyOneElement()[pri:0, instance:com.secondLargestNumber.test.SecondLargestNumber.TestSecondLargestNumber@75bd9247]" name="testArrayOnlyOneElement" duration-ms="0" started-at="2016-06-17T00:15:56Z" finished-at="2016-06-17T00:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrayOnlyOneElement -->
+        <test-method status="PASS" signature="testArrayWithTwoElements()[pri:0, instance:com.secondLargestNumber.test.SecondLargestNumber.TestSecondLargestNumber@75bd9247]" name="testArrayWithTwoElements" duration-ms="1" started-at="2016-06-17T00:15:56Z" finished-at="2016-06-17T00:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrayWithTwoElements -->
+        <test-method status="PASS" signature="testScondLargestNumber()[pri:0, instance:com.secondLargestNumber.test.SecondLargestNumber.TestSecondLargestNumber@75bd9247]" name="testScondLargestNumber" duration-ms="1" started-at="2016-06-17T00:15:56Z" finished-at="2016-06-17T00:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScondLargestNumber -->
+        <test-method status="PASS" signature="withoutsorting()[pri:0, instance:com.secondLargestNumber.test.SecondLargestNumber.TestSecondLargestNumber@75bd9247]" name="withoutsorting" duration-ms="1" started-at="2016-06-17T00:15:56Z" finished-at="2016-06-17T00:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutsorting -->
+      </class> <!-- com.secondLargestNumber.test.SecondLargestNumber.TestSecondLargestNumber -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.secondLargestNumber.test.SecondLargestNumber.TestSecondLargestNumber -->
+</testng-results>
